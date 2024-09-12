@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     .myform{
+        background-color:rgb(127, 169, 200) ;
+        display: inline-flex;
+        flex-direction: column;
+         }
+header{
+    padding: 30px;
+    text-align: center;
+}
+ input[type=button]
+ {
+    background-color: green;
+ }
+ input[type=name]
+ {
+    background-color: white;
+ }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form ass</title>
+</head>
+<body>
+    <!-- ass on form -->
+    <form action="name" class="myform">
+        <div class="header">
+        <h2>Student Registration Form</h2>
+        <hr>
+        </div>
+    <label for="name">Firstname</label>
+    <input type="name" placeholder="Firstname">
+    <br>
+    <label for="name">Middlename:</label>
+    <input type="name" placeholder="Middlename">
+   <br>
+    <label for="course">Course:</label >
+    <select name="courses" id=" course" >
+    <option value="courses">course</option>
+    <option value="">data science</option>
+    <option value=""> machine learning</option>
+    <option value="">cybersecurity</option> >
+    </select>
+ <br>
+    <label for="letter">Gender:
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female
+    <input type="radio" name="Gender">other
+    </label>
+    <br>
+    <label for="Digit">Phone:</label>
+    <input type="number" placeholder="+91">
+    <br>
+    <input type="name" placeholder="phone no">
+    <br>
+    <label for="name">Current Address:</label>
+    <input type="name" placeholder="current Address" >
+    <br>
+    <label for="name">Email</label>
+    <input type="name" placeholder="Email">
+<br>
+<label for="name">password</label>
+<input type="name" placeholder="password">
+<br>
+<label for="name">Re-type password</label>
+<input type="name" placeholder="Retype password">
+<br>
+<input type="button" value="Register">
+    </form>
+</body>
+</html>

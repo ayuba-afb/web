@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.container {
+    background-color: #fdf5f3;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 10px;
+}
+
+h2 {
+    color: #4149ab;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.nav-middle {
+    display: flex;
+    font-size: 20px;
+}
+
+.navbar1 {
+    padding: 0 10px;
+}
+
+a {
+    color: black;
+}
+
+.login {
+    background-color: #4149ab;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.bliss {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff6ef, #ba27b540);
+    
+}
+
+.mark {
+    color: #4149ab;
+    display: flex;
+    justify-content: center;
+    bottom: -199px;
+    font-size: large;
+    position: relative;
+    margin-right: 67%;
+}
+
+.nonsense {
+    color: black;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: -200px;
+    font-size: xx-large;
+    margin-right: 65%;
+}
+
+.rubbish {
+    color: hsl(200, 1%, 42%);
+    justify-content: center;
+    display: flex;
+    font-size: medium;
+    bottom: -220px;
+    position: relative;
+    margin-right: 68%;
+
+}
+
+.offerleft {
+    z-index: 2;
+    position: absolute;
+    right: 780px;
+    width: 100px;
+    height: 150px;
+}
+
+.offermiddle {
+    z-index: 1;
+    right: 280px;
+    width: 250px;
+    top: 220px;
+    position: absolute;
+}
+
+.offerright {
+    z-index: 2;
+    position: absolute;
+    right: 410px;
+    width: 100px;
+    height: 200px;
+}
+
+.mumu {
+    background-color: #4149ab;
+    position: absolute;
+    bottom: 125px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 2%;
+}
+
+.register {
+    display: flex;
+    column-gap: 10px;
+}
+
+.bi-search {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+section {
+    width: 960px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.category-title {
+    color: blue;
+}
+
+.category-title2 {
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.category-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.courses {
+    text-align: center;
+}
+
+.icons-text {
+    background-color: #f8fafb;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 10px;
+    padding: 10px 10px;
+}
+
+.icons-text:hover {
+    background-color: #515cde;
+    color: white;
+}
+
+.offer-container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+}
+
+.kamal {
+    position: relative;
+    width: 50%;
+}
+
+.kamal .fathia {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    bottom: 80%;
+    left: 20px;
+}
+
+.kamal .fathia img {
+    width: 100%;
+}
+
+.kamal .toheeb {
+    width: 430px;
+    height: 120px;
+    z-index: 1;
+    position: absolute;
+    left: 170px;
+}
+
+.kamal .toheeb img {
+    width: 100%;
+}
+
+.kamal .mariam {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 60px;
+    z-index: 2;
+    top: 200px;
+}
+
+.kamal .mariam img {
+    width: 100%;
+}
+
+.offer-right {
+    width: 50%;
+    height: 100%;
+}
+
+.whatever {
+    margin-right: 200px;
+    margin-top: -920px;
+}
+
+.pet {
+    color: #4149ab;
+    font-size: 17px;
+    font-weight: 200;
+    margin-right: 650px;
+    white-space: nowrap;
+}
+#who{
+    line-height: 60px;
+}
+#who1{
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.book {
+    color: black;
+    font-size: 40px;
+    margin-right: 300px;
+    white-space: nowrap;
+}
+
+.pest1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+
+.text {
+    column-gap: 30px;
+    display: flex;
+}
+
+.cont{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+.hi{
+    margin-top: 10px;
+}
+
+.bye{
+    background-color: #4149ab;
+    padding: 10px 15px;
+    border-radius: 7px;
+   color: white;
+   position: absolute;
+    
+}
+.section-course{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   column-gap: 10px;
+    margin: 30px auto; 
+   justify-content: center;
+   width: 75%;
+}
+.courses{
+    background-image: linear-gradient(to bottom, #fff6ef , #ba27b540 ) ;
+    width: 100%;
+    height: 150vh;
+}
+
+.soo{
+    background-color:white;
+    width: 89%;
+  height: 90%;  
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  padding:13px ,20px;
+  border-radius: 5px;
+  border: 10px;
+}
+.int{
+    border: 10px;
+    border-radius: 5px;
+    padding: 11px 22px;
+    color: blue;
+    background-color: white;
+    position: absolute;
+/* bottom: -218%;  */
+
+}
+.bi-heart-fill{
+  width: 30px;
+  height: 30px;
+  border-radius: 55px;
+  background-color: grey;
+  position: absolute;
+  margin-top: -0.03%;
+  margin-left: 20%;
+}
+.by{
+    background-color: #4149ab;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    /* justify-content: center; */
+    position: absolute;
+    right: 48%;
+    top: 435%;
+    color: white;
+}
+.workshop{
+    background-color: #4149ab;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    
+}
+.pull{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    color: #4149ab;
+    bottom: -378%;
+    right: 65%;
+    position: absolute;
+}
+.work{
+    /* position: absolute;
+    margin-left: 22%;  */
+    
+}
+ .free{
+    display: flex;
+    justify-content: center;
+    /* font-size: large; */
+   position: absolute;
+    bottom: -355%; 
+    right: 68%;
+}
+.shop{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    position: absolute; 
+    bottom: -358%; 
+    right: 60.5%;
+}
+.topp{
+    position: absolute;
+    margin-left: 55%;
+   margin-bottom: ;
+}
+.pout{
+  position: absolute;    
+ top:460%;   
+ right: 50%;
+    
+    /* font-size: large; */
+    
+}
+
